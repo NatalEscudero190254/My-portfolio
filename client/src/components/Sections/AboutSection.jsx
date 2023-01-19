@@ -4,7 +4,6 @@ import React from 'react';
 import AB from "../../assets/fotoportfiolio.jpeg"
 import "./AboutSection.css"
 import VerifiedIcon from '@mui/icons-material/Verified';
-import GroupAddIcon from '@mui/icons-material/GroupAdd';
 import WorkIcon from '@mui/icons-material/Work';
 
 

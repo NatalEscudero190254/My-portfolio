@@ -5,7 +5,6 @@ import EmailIcon from '@mui/icons-material/Email';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import "./ContactSection.css"
 import emailjs from '@emailjs/browser';
-// import Swal from 'sweetalert2';
 
 
 
