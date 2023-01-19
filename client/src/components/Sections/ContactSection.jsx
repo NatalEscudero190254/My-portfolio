@@ -5,7 +5,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import "./ContactSection.css"
 import emailjs from '@emailjs/browser';
-import Swal from 'sweetalert2';
+// import Swal from 'sweetalert2';
 
 
 
@@ -41,10 +41,11 @@ const ContactSection = () => {
           });
           e.target.reset();
           setResult(true)
-          Swal.fire({
-            icon:"success",
-            text:"Your message has been successfully sent. I will contact you soon!"
-          })
+          // Swal.fire({
+          //   icon:"success",
+          //   text:"Your message has been successfully sent. I will contact you soon!"
+          // })
+          alert("Your message has been successfully sent. I will contact you soon!")
       };
    
     return(
