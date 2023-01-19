@@ -1,0 +1,50 @@
+.experiencesContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 30px;
+}
+.containerexperiences{
+   justify-content: center;
+}
+
+
+.frontendcontents{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+
+.experiencetitle{
+    margin-bottom: 25px;
+}
+
+.frontend{
+    border:solid 1px transparent;
+    background: #2c2c6c;
+    border-radius: 2rem;
+    padding: 2.4rem 5rem;
+    transition: .50s;
+}
+
+.frontend:hover{
+    background: transparent;
+    cursor: default;
+    border: solid 1px black;
+}
+
+.textLigth{
+    color: white;
+    font-weight: lighter;
+}
+
+
+
+@media  screen and (max-width: 1024px){
+    
+   .containerexperiences{
+    margin-top: 50px;
+   }
+}
+

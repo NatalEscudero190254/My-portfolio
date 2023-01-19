@@ -1,0 +1,52 @@
+
+
+.navBox{
+    display: block;
+    width: max-content;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 89%;
+    background-color: rgba(0, 0, 0, 0.3 );
+    border-radius: 3rem;
+    display: flex;
+    gap: 0.8rem;
+    backdrop-filter: blur(15px);
+    
+
+}
+
+
+
+
+
+.navBox a{
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    font-size: 1.1rem;
+}
+
+
+.navBox a:hover{
+    background: rgba(0, 0, 0, 0.2 ) ;
+}
+
+.navBox a.active {
+    background: rgba(138, 137, 137, 0.2);
+    color: white;
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .navBox{
+        position: fixed;
+        justify-content: flex-end;
+        left: 51%;
+        top: 89%;
+    }
+}

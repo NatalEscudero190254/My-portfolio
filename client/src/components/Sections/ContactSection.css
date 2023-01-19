@@ -1,0 +1,22 @@
+.contactbox{
+    width: 210px;
+    height: 120px;
+    border: solid 1px transparent;
+    border-radius: 2rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap:4px;
+    background: #2c2c6c;
+    color: white;
+    transition: .50s;
+}
+
+
+.contactbox:hover{
+    background: transparent;
+    border: solid 1px black;
+    transition: .50s;
+}

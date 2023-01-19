@@ -1,0 +1,47 @@
+.cardBox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    place-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    
+    
+    
+}
+
+.cardcontainer{
+    width: 290px;
+    height: 330px;
+    background: #2c2c6c;
+    border-radius: 2rem ;
+    overflow: hidden;
+    transition: .50s;
+    padding: 1rem;
+    border: solid 1px transparent;
+}
+
+.cardcontainer:hover{
+    background: transparent;
+    cursor: default;
+    border: solid 1px black
+}
+.cardimg{
+   overflow: hidden;
+  
+    
+}
+
+
+
+.imagen{
+    width: 290px;
+    height: 180px;
+    border-radius: 1.5rem ;
+    padding-top: 5px;
+}
+
+
+
+

@@ -1,0 +1,60 @@
+.container{
+    height: 100vh;
+    
+}
+
+
+.img{
+    background: #0096c7 ;
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    right: 36.5rem;
+    top: 18rem;
+    border-radius: 12rem 12rem 0 0;
+}
+
+.socialHeader{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    top: 34.5rem;
+    
+}
+.scrollbtn{
+    position: absolute;
+    left: 31rem;
+    top: 24rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    text-transform: lowercase;
+    font-weight: 300;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container{
+        height: 100vh;
+        border: solid red;
+        
+        
+        
+    }
+
+    .scrollbtn{
+        left: 18rem;
+        top: 28rem;
+    }
+}
+
+@media  screen and (max-width: 600px){
+    .scrollbtn{
+        display: none;
+    }
+
+    .socialHeader{
+        display: none;
+    }
+}
+
