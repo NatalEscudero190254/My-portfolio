@@ -69,7 +69,7 @@ const ProjectsSection = () => {
                         </Box>
       
                     </Box>
-                    <Box className="cardcontainer">
+                    {/* <Box className="cardcontainer">
                         <Box className='cardimg'>
                             <img src={miscusi} alt="not found" className='imagen'/>
                         </Box>
@@ -83,7 +83,7 @@ const ProjectsSection = () => {
                             <Button href="https://mi-scusi-books.vercel.app/" target={"blank"} variant='contained' sx={{color:"black", backgroundColor:"#0096c7"}} >Live Demo</Button>
                         </Box>
       
-                    </Box>
+                    </Box> */}
                     
                     {/* tercera card */}
                     <Box className="cardcontainer">
@@ -102,7 +102,7 @@ const ProjectsSection = () => {
             
                     </Box>
                     {/* cuarta card */}
-                    <Box className="cardcontainer">
+                    {/* <Box className="cardcontainer">
                         <Box className='cardimg'>
                             <img src={linguini} alt="not found" className='imagen'/>
                         </Box>
@@ -116,7 +116,7 @@ const ProjectsSection = () => {
                             <Button href="https://foods-pi.vercel.app/" target={"blank"} variant='contained' sx={{color:"black", backgroundColor:"#0096c7"}} >Live Demo</Button>
                         </Box>
       
-                    </Box>
+                    </Box> */}
                     {/*quinta card */}
                     <Box className="cardcontainer">
                         <Box className='cardimg'>
